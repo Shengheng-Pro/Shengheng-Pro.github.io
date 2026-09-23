@@ -330,3 +330,7 @@ Object.assign(FRENCH, {
 });
 
 Object.assign(FRENCH, {'Square':'Carré','Triangle':'Triangle','Circle':'Circulaire','Pore geometry':'Forme des pores','Drag to rotate · Scroll or pinch to zoom':'Glisser pour tourner · Défiler ou pincer pour zoomer','Zoom out':'Réduire','Zoom in':'Agrandir','Reset view':'Réinitialiser la vue'});
+
+Object.assign(FRENCH, {'Preparing geometry…':'Préparation de la géométrie…'});
+
+Object.assign(FRENCH, {'Wave lattice':'Réseau ondulé'});
