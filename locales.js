@@ -305,19 +305,19 @@ Object.assign(FRENCH,{
 Object.assign(FRENCH,{
   "Fill. Cover. Protect.": "Remplir. Couvrir. Protéger.",
   "SRM fades. Fat remains.": "Le SRM se résorbe. La graisse reste.",
-  "Fat fills the porous SRM, followed by coverage with an autologous skin graft.": "La graisse remplit le SRM poreux, puis une greffe de peau autologue recouvre la zone.",
-  "A side section follows the SRM as it degrades, with fat retained beneath the skin graft.": "Une coupe latérale montre la dégradation du SRM et le maintien de la graisse sous la greffe cutanée.",
+  "Fat fills the porous SRM, followed by coverage with a cover layer.": "La graisse remplit le SRM poreux, puis une couche de couverture recouvre la zone.",
+  "A side section follows the SRM as it degrades, with fat retained beneath the cover layer.": "Une coupe latérale montre la dégradation du SRM et le maintien de la graisse sous la couche de couverture.",
   "Contain affected lots, validate an alternative supplier through material assessment and production trials, and introduce the qualified material. Add thermal-property acceptance criteria and strengthen supplier change control.": "Isoler les lots concernés, valider un autre fournisseur par l'évaluation de la matière et des essais de production, puis introduire la matière qualifiée. Ajouter des critères thermiques et renforcer la maîtrise des changements fournisseur.",
   "Alternative-supplier material meets the thermal-property criteria and passes production trials and finished-product mass verification.": "La matière du nouveau fournisseur satisfait aux critères thermiques et réussit les essais de production ainsi que la vérification de la masse unitaire du produit fini.",
   "SPC monitoring of subsequent lots using the validated alternative supplier confirms stable product mass. Incoming controls and supplier change management are reviewed before CAPA closure.": "Après l'introduction du fournisseur alternatif validé, le suivi SPC des lots suivants confirme une masse unitaire stable. Les contrôles réception et la gestion des changements fournisseur sont revus avant la clôture de la CAPA.",
   "04 / FILL & COVER": "04 / REMPLISSAGE & COUVERTURE",
   "05 / TISSUE & RESORPTION": "05 / TISSU & RÉSORPTION",
-  "Five-scene SRM, fat filling, skin graft and resorption animation": "Animation en cinq étapes : SRM, graisse, greffe cutanée et résorption",
-  "Autologous skin graft in place": "Greffe de peau autologue en place",
-  "Cover with an autologous skin graft": "Recouvrir avec une greffe de peau autologue",
+  "Five-scene SRM, fat filling, cover layer and resorption animation": "Animation en cinq étapes : SRM, graisse, couche de couverture et résorption",
+  "Cover layer in place": "Couche de couverture en place",
+  "Cover the defect": "Recouvrir la zone",
   "Fat filling within the SRM": "Remplissage du SRM avec de la graisse",
   "SIDE SECTION": "COUPE LATÉRALE",
-  "Autologous skin graft": "Greffe de peau autologue",
+  "Cover layer": "Couche de couverture",
   "Fat remains · SRM resorbed": "Graisse maintenue · SRM résorbé",
   "Fat retained as the SRM degrades": "La graisse reste tandis que le SRM se résorbe",
   "Over time": "Au fil du temps"
@@ -328,3 +328,5 @@ Object.assign(FRENCH, {
   "Process validation case | Packaging heat sealing": "Cas de validation de procédé | Thermoscellage des emballages",
   "CAPA case | Product mass drift": "Cas CAPA | Dérive de la masse du produit"
 });
+
+Object.assign(FRENCH, {'Square':'Carré','Triangle':'Triangle','Circle':'Circulaire','Pore geometry':'Forme des pores','Drag to rotate · Scroll or pinch to zoom':'Glisser pour tourner · Défiler ou pincer pour zoomer','Zoom out':'Réduire','Zoom in':'Agrandir','Reset view':'Réinitialiser la vue'});

@@ -13,7 +13,7 @@ function tissueSequence(ctx,step,elapsed,defect,drawMesh){
     ctx.fillStyle='rgba(213,231,237,.8)';ctx.fillRect(-12,-183,24,88);ctx.fillStyle='#edc36e';ctx.fillRect(-8,-174+fill*64,16,71-fill*64);
     ctx.strokeStyle='#b5cbd3';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(-24,-182);ctx.lineTo(24,-182);ctx.moveTo(0,-183);ctx.lineTo(0,-209+fill*50);ctx.stroke();ctx.restore();
     if(elapsed>3400){ctx.save();ctx.globalAlpha=ease((elapsed-3400)/450);ctx.translate(0,-180*(1-cover));const g=ctx.createLinearGradient(650,420,820,560);g.addColorStop(0,'#e8b89e');g.addColorStop(1,'#bc856d');ctx.fillStyle=g;ctx.fill(defect);ctx.strokeStyle='#edc7ae';ctx.lineWidth=3;ctx.stroke(defect);ctx.restore()}
-    label(cover>.95?t('Autologous skin graft in place','自体皮片覆盖完成'):fill>.95?t('Cover with an autologous skin graft','覆盖自体皮片'):t('Fat filling within the SRM','向 SRM 孔隙内填充脂肪'),440,730);
+    label(cover>.95?t('Cover layer in place','覆盖完成'):fill>.95?t('Cover the defect','覆盖缺损区域'):t('Fat filling within the SRM','向 SRM 孔隙内填充脂肪'),440,730);
   }else{
     const enter=ease(elapsed/1000),degrade=ease((elapsed-1600)/4800);
     ctx.save();ctx.globalAlpha=enter;ctx.translate(0,50*(1-enter));
@@ -27,7 +27,7 @@ function tissueSequence(ctx,step,elapsed,defect,drawMesh){
     ctx.save();ctx.globalAlpha=1-degrade;ctx.strokeStyle='#a1dcc8';ctx.lineWidth=9*(1-.6*degrade);ctx.lineCap='round';ctx.setLineDash(degrade>.25?[17*(1-degrade)+2,16*degrade]:[]);
     ctx.beginPath();for(let x=445;x<=1090;x+=47){ctx.moveTo(x,427);ctx.lineTo(x,645)}for(let y=429;y<=645;y+=48){ctx.moveTo(445,y);ctx.lineTo(1090,y)}ctx.stroke();ctx.restore();
     const skin=ctx.createLinearGradient(0,394,0,421);skin.addColorStop(0,'#efc5ae');skin.addColorStop(1,'#bd8c73');ctx.fillStyle=skin;ctx.fillRect(438,392,660,29);
-    ctx.strokeStyle='#92aaa9';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(980,400);ctx.lineTo(1100,338);ctx.lineTo(1320,338);ctx.stroke();label(t('Autologous skin graft','自体皮片'),1030,316);
+    ctx.strokeStyle='#92aaa9';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(980,400);ctx.lineTo(1100,338);ctx.lineTo(1320,338);ctx.stroke();label(t('Cover layer','覆盖层'),1030,316);
     label(degrade>.95?t('Fat remains · SRM resorbed','脂肪保留 · SRM 降解'):t('Fat retained as the SRM degrades','SRM 逐渐降解，脂肪保留'),390,745);
     ctx.fillStyle='#2c4149';ctx.fillRect(445,799,645,4);ctx.fillStyle='#a1dcc8';ctx.fillRect(445,799,645*degrade,4);label(t('Over time','随时间推移'),650,850);ctx.restore();
   }
