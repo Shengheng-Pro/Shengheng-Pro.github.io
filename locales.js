@@ -334,3 +334,31 @@ Object.assign(FRENCH, {'Square':'Carré','Triangle':'Triangle','Circle':'Circula
 Object.assign(FRENCH, {'Preparing geometry…':'Préparation de la géométrie…'});
 
 Object.assign(FRENCH, {'Wave lattice':'Réseau ondulé'});
+Object.assign(FRENCH, {
+  'CV & CONTACT':'CV ET CONTACT',
+  'CV & Contact':'CV et contact',
+  'For a detailed CV or professional inquiries, get in touch.':'Pour obtenir mon CV détaillé ou échanger sur un projet professionnel, contactez-moi.',
+  'Contact →':'Contacter →',
+  'Email':'E-mail',
+  'Copy':'Copier',
+  'Copied':'Copié',
+  'Select the email address to copy':'Sélectionnez l’adresse e-mail pour la copier',
+  'OQ / EXPERIMENT PLAN':'QO / PLAN D’ESSAIS',
+  'Temperature × sealing time':'Température × durée de scellage',
+  'center points':'points centraux',
+  'Explore the proposed bounds, then use the experimental runs to assess seal quality and define the operating window.':'Explorer les limites proposées, puis évaluer la qualité des soudures pour définir la plage de fonctionnement.',
+  'Temperature (°C)':'Température (°C)',
+  'Sealing time (s)':'Durée de scellage (s)',
+  'Lower':'Basse',
+  'Upper':'Haute',
+  'Enter valid bounds with each lower limit below its upper limit.':'Saisissez des bornes valides, avec chaque limite basse inférieure à la limite haute.',
+  'Four corner runs and three repeated center points':'Quatre points aux angles et trois répétitions au centre',
+  'Center × 3':'Centre × 3',
+  'Four corners · three center repeats':'Quatre angles · trois répétitions au centre',
+  'Generate Runs':'Générer les essais',
+  'Randomized run order':'Ordre des essais randomisé',
+  'Run':'Essai',
+  'Point':'Point',
+  'Center':'Centre',
+  'Corner':'Angle'
+});
