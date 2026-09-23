@@ -27,3 +27,5 @@ html[lang="fr"] .case-tab strong{overflow-wrap:anywhere}
 #cases{--case-label-size:19px}
 #cases>.section-top>.eyebrow,#cases>.case-note,#cases .case-tab strong{font-size:var(--case-label-size)}
 @media(max-width:700px){#cases{--case-label-size:17px}}
+
+.shape-options{display:flex;gap:7px;flex-wrap:wrap;margin:9px 0}.shape-options .pill{padding:7px 12px}.lattice-controls p{font-size:13px;margin:9px 0}.view-buttons{display:flex;gap:8px;margin-bottom:20px}.view-buttons button{background:transparent;border:1px solid var(--line);border-radius:6px;padding:4px 12px;color:var(--ink)}#scaffold{cursor:grab}.model-side{min-width:0}
